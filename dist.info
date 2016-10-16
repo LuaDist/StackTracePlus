@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "StackTracePlus"
+version = "0.1.2"
+
+desc = "StackTracePlus can be used as a replacement for debug.traceback. It gives detailed information about locals, tries to guess function names when they're not available, etc."
+author = "Ignacio Burgueño"
+license = "MIT/X11"
+url = "http://github.com/ignacio/StackTracePlus"
+maintainer = "Peter Kapec"
+
+depends = {
+  "lua >= 5.1",
+}
